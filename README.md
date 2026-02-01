@@ -87,6 +87,18 @@ npm start
 
 The application will open at `http://localhost:3000`
 
+## 🚀 Deployment
+
+The project is configured for easy deployment on **Render**.
+
+👉 **[Read the Full Deployment Guide](DEPLOYMENT.md)**
+
+Quick summary:
+1. Push code to GitHub
+2. Create a "Blueprint" on Render linked to your repo
+3. Add your Alchemy API keys in the Render Dashboard
+4. Profit! 💸
+
 ## 🎯 Usage
 
 1. Enter any Ethereum wallet address in the search bar
