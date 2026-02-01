@@ -10,11 +10,8 @@ services:
     envVars:
       - key: PORT
         value: 5000
-      - key: FRONTEND_URL
-        fromService:
-          type: web
-          name: defi-portfolio-frontend
-          property: url
+      # FRONTEND_URL removed to prevent circular dependency
+      # You can add it manually in the Dashboard later for strict CORS
       # User must manually add Alchemy keys in Render Dashboard
       - key: ALCHEMY_ETHEREUM_KEY
         sync: false
